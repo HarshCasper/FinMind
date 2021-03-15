@@ -18,8 +18,6 @@ self = Crawler()
 
 
 class Crawler(cbaseclass.Crawler):
-    def __init__(self):
-        super(Crawler, self).__init__()
 
     def create_loop_list(self):
         # self.based_url = 'https://www.investing.com/commodities/'
